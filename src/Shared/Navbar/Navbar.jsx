@@ -35,20 +35,20 @@ const Navbar = () => {
                 <p>fake@gmail.com</p>
               </div>
             </div>
-            <div className="px-4 py-2 bg-[#2794E9EA] text-white hover:bg-[#ff6900] hover:text-black rounded-full ml-3">
+            <div className="px-4 py-2 bg-[#2794E9EA] text-white hover:bg-[#f7941f] hover:text-black rounded-full ml-3">
               <button className="font-bold text-[12px] uppercase">
                 Track Order
               </button>
             </div>
           </div>
         </div>
-        <div className="drawer-side z-[9999999]">
+        <div className="drawer-side z-[999]">
           <label
             htmlFor="my-drawer"
             aria-label="close sidebar"
             className="drawer-overlay"
           ></label>
-          <ul className="menu p-4 w-52 min-h-full text-black bg-base-200">
+          <ul className="menu p-4 w-60 min-h-full text-black bg-base-200">
             {/* Sidebar content here */}
             <DrawerLink />
           </ul>

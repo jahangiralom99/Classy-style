@@ -76,11 +76,11 @@ const Navbar3Category = () => {
 
   return (
     <>
-      <li className="relative p-4 group z-[500]">
+      <li className="relative p-4 group z-[99]">
         <Link className="flex uppercase items-center text-white font-bold gap-1">
           ALl Category <IoIosArrowDown />
         </Link>
-        <ul className="absolute md:top-12 bg-white left-0 mt-2 text-black  opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden group-hover:block rounded-lg">
+        <ul className="absolute md:top-12 shadow-lg border bg-white left-0 mt-2 text-black  opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden group-hover:block rounded-lg">
           <div className="flex p-6 gap-28 px-8">
             <li className="flex flex-col gap-2">
               <h1 className="font-bold">{data[0]?.category}</h1>
@@ -125,7 +125,7 @@ const Navbar3Category = () => {
         <Link className="flex uppercase items-center text-white font-bold gap-1">
           Women's <IoIosArrowDown />
         </Link>
-        <ul className="absolute md:top-12 bg-white left-0 mt-2 text-black  opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden group-hover:block rounded-lg">
+        <ul className="absolute md:top-12 bg-white shadow-lg border left-0 mt-2 text-black  opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden group-hover:block rounded-lg">
           <div className="flex p-6 gap-28 px-8">
             <li className="flex flex-col gap-2">
               <h1 className="font-bold">{data[0]?.category}</h1>
@@ -140,7 +140,7 @@ const Navbar3Category = () => {
         <Link className="flex uppercase items-center text-white font-bold gap-1">
           Men's <IoIosArrowDown />
         </Link>
-        <ul className="absolute md:top-12 bg-white left-0 mt-2 text-black  opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden group-hover:block rounded-lg">
+        <ul className="absolute md:top-12 shadow-lg border bg-white left-0 mt-2 text-black  opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden group-hover:block rounded-lg">
           <div className="flex p-6 gap-28 px-8">
             <li className="flex flex-col gap-2">
               <h1 className="font-bold">{data[1]?.category}</h1>
@@ -155,7 +155,7 @@ const Navbar3Category = () => {
         <Link className="flex uppercase items-center text-white font-bold gap-1">
           Kids's <IoIosArrowDown />
         </Link>
-        <ul className="absolute md:top-12 bg-white left-0 mt-2 text-black  opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden group-hover:block rounded-lg">
+        <ul className="absolute md:top-12 shadow-lg border bg-white left-0 mt-2 text-black  opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden group-hover:block rounded-lg">
           <div className="flex p-6 gap-28 px-8">
             <li className="">
               <h1 className="font-bold">{data[2]?.category}</h1>
@@ -172,7 +172,7 @@ const Navbar3Category = () => {
         <Link className="flex uppercase items-center text-white font-bold gap-1">
           Beauty <IoIosArrowDown />
         </Link>
-        <ul className="absolute md:top-12 bg-white left-0 mt-2 text-black  opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden group-hover:block rounded-lg">
+        <ul className="absolute md:top-12 shadow-lg border bg-white left-0 mt-2 text-black  opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden group-hover:block rounded-lg">
           <div className="flex p-6 px-8">
             <li>
               <h1 className="font-bold">{data[3]?.category}</h1>
@@ -189,7 +189,7 @@ const Navbar3Category = () => {
         <Link className="flex uppercase items-center text-white font-bold gap-1">
           jewellery <IoIosArrowDown />
         </Link>
-        <ul className="absolute md:top-12 bg-white left-0 mt-2 text-black  opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden group-hover:block rounded-lg">
+        <ul className="absolute md:top-12 shadow-lg border bg-white left-0 mt-2 text-black  opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden group-hover:block rounded-lg">
           <div className="flex p-6 px-8">
             <li>
               <h1 className="font-bold">{data[4]?.category}</h1>
@@ -206,7 +206,7 @@ const Navbar3Category = () => {
         <Link className="flex uppercase items-center text-white font-bold gap-1">
           home decor <IoIosArrowDown />
         </Link>
-        <ul className="absolute md:top-12 bg-white left-0 mt-2 text-black  opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden group-hover:block rounded-lg">
+        <ul className="absolute md:top-12 shadow-lg border bg-white left-0 mt-2 text-black  opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden group-hover:block rounded-lg">
           <div className="flex p-6 px-8">
             <li>
               <h1 className="font-bold">{data[5]?.category}</h1>

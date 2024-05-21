@@ -76,13 +76,13 @@ const DrawerLink = () => {
 
   return (
     <div>
-      <div className="flex flex-col items-start w-full">
-        <li className="relative p-4 group z-[500]">
+      <div className="flex flex-col items-start w-full z-[999]">
+        <li className="relative p-4 group z-[9999]">
           <Link className="flex uppercase items-center font-bold gap-1">
             ALl Category <IoIosArrowDown />
           </Link>
-          <ul className="absolute bg-white top-0 left-32 mt-2 text-black  opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden group-hover:block rounded-lg">
-            <div className="flex p-6 gap-12 px-8">
+          <ul className="absolute bg-white overflow-y-scroll h-screen top-14 w-52 lg: md:w-96 -left-4 md:left-32 mt-2 text-black  opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden group-hover:block rounded-lg">
+            <div className="grid grid-cols-1 md:grid-cols-2 p-6 gap-12 px-8">
               <li className="flex flex-col gap-2">
                 <h1 className="font-bold">{data[0]?.category}</h1>
                 {data[0]?.women.map((item, idx) => (
