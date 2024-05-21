@@ -1,6 +1,6 @@
 const Card = () => {
   return (
-    <section className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
+    <section className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mt-12">
       <div className="p-1 text-center transform duration-500 cursor-pointer">
         <img
           src="https://i.postimg.cc/YCYzjf8L/1716107102-404977792-IMG20240515193224-800x800.jpg"

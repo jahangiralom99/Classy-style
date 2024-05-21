@@ -1,7 +1,7 @@
 import { Carousel } from "react-responsive-carousel";
 const Banner = () => {
   return (
-    <div className="grid md:grid-cols-3  justify-items-center place-content-center">
+    <div className="grid md:grid-cols-3 mt-12 justify-items-center place-content-center">
       <div className="col-span-2">
         <Carousel showThumbs={false} autoPlay={true}>
           <div>

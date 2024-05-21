@@ -1,6 +1,6 @@
 const PopularCategory = () => {
   return (
-    <div className="mt-12">
+    <div className="mt-16">
       <h1 className="text-3xl text-center font-bold text-[#f7941f]">
         Our Popular Categories
       </h1>

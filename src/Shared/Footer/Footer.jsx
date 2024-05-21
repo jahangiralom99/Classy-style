@@ -1,15 +1,15 @@
 const Footer = () => {
   return (
     <div>
-      <div className="mt-8 bg-[#f7941f] pt-9">
+      <div className="mt-16 bg-[#f7941f] pt-9">
         <div className="mx-auto w-full max-w-screen-xl px-4 xl:px-0">
           <div className="flex flex-col justify-between sm:px-[18px] md:flex-row md:px-10">
             <div className="md:w-[316px]">
-              <p className="text-[18px] font-medium text-white">
-                <h1 className="text-white font-extrabold">
+              <div className="text-[18px] font-medium text-white">
+                <div className="text-white font-extrabold">
                   <img src="https://i.ibb.co/vQzqKf5/IMG-20230919-230537-1-2048x315.jpg" alt="" />
-                </h1>
-              </p>
+                </div>
+              </div>
               <p className="mt-[18px] text-[15px] font-normal text-white/[80%]">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
                 fugit non. Incidunt dolorum adipisci, tempore asperiores nemo
