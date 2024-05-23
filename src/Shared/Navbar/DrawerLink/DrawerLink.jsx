@@ -76,8 +76,8 @@ const DrawerLink = () => {
 
   return (
     <div>
-      <div className="flex flex-col items-start w-full z-[999]">
-        <li className="relative p-4 group z-[9999]">
+      <div className="flex flex-col items-start  w-full ">
+        <li className="relative p-4 group z-[99999]">
           <Link className="flex uppercase items-center font-bold gap-1">
             ALl Category <IoIosArrowDown />
           </Link>
@@ -122,7 +122,7 @@ const DrawerLink = () => {
             </div>
           </ul>
         </li>
-        <li className="relative p-4 group z-[500]">
+        <li className="relative p-4 group z-[9999]">
           <Link className="flex uppercase items-center  font-bold gap-1">
             Women's <IoIosArrowDown />
           </Link>
@@ -137,7 +137,7 @@ const DrawerLink = () => {
             </div>
           </ul>
         </li>
-        <li className="relative p-4 group z-[500]">
+        <li className="relative p-4 group z-[999]">
           <Link className="flex uppercase items-center  font-bold gap-1">
             Men's <IoIosArrowDown />
           </Link>
@@ -152,15 +152,15 @@ const DrawerLink = () => {
             </div>
           </ul>
         </li>
-        <li className="relative p-4 group z-[500]">
+        <li className="relative p-4 group z-[99]">
           <Link className="flex uppercase items-center font-bold gap-1">
             Kids's <IoIosArrowDown />
           </Link>
-          <ul className="absolute md:top-12 bg-white left-0 mt-2 text-black  opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden group-hover:block rounded-lg">
-            <div className="flex p-6 gap-28 px-8">
+          <ul className="absolute w-44 md:top-12 bg-white left-0 mt-2 text-black  opacity-0 group-hover:opacity-100 transition-opacity duration-300 hidden group-hover:block rounded-lg">
+            <div className=" p-6 gap-28 px-8">
               <li className="">
                 <h1 className="font-bold">{data[2]?.category}</h1>
-                <div>
+                <div className="flex flex-col items-center justify-center">
                   {data[2]?.kids.map((item, idx) => (
                     <Link key={idx}>{item.name}</Link>
                   ))}
@@ -169,7 +169,7 @@ const DrawerLink = () => {
             </div>
           </ul>
         </li>
-        <li className="relative p-4 group z-[500]">
+        <li className="relative p-4 group ">
           <Link className="flex uppercase items-center  font-bold gap-1">
             Beauty <IoIosArrowDown />
           </Link>
@@ -186,7 +186,7 @@ const DrawerLink = () => {
             </div>
           </ul>
         </li>
-        <li className="relative p-4 group z-[500]">
+        <li className="relative p-4 group ">
           <Link className="flex uppercase items-center font-bold gap-1">
             jewellery <IoIosArrowDown />
           </Link>
@@ -203,7 +203,7 @@ const DrawerLink = () => {
             </div>
           </ul>
         </li>
-        <li className="relative p-4 group z-[500]">
+        <li className="relative p-4 group ">
           <Link className="flex uppercase items-center font-bold gap-1">
             home decor <IoIosArrowDown />
           </Link>

@@ -1,18 +1,39 @@
+import { CiHeart } from "react-icons/ci";
+import { IoSearch } from "react-icons/io5";
+import { TiArrowShuffle } from "react-icons/ti";
+
 const Card = () => {
   return (
-    <section className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mt-12">
-      <div className="p-1 text-center transform duration-500 cursor-pointer">
+    <section className="grid md:grid-cols-2  lg:grid-cols-4 gap-4 mt-12">
+      <div className="relative p-1 text-center group transform duration-500 cursor-pointer">
+        <div className="absolute hidden group-hover:block top-8 right-4 rounded-md w-10 bg-white ">
+          <div className="flex flex-col items-center justify-center gap-4 ">
+            <div data-tip="Compare" className="tooltip tooltip-left">
+            <TiArrowShuffle className="text-2xl" />
+           </div>
+            <div data-tip="Search" className="tooltip tooltip-left">
+            <IoSearch className="text-2xl" />
+            </div>
+            <div data-tip="Add to Wishlist" className="tooltip tooltip-left">
+            <CiHeart className="text-2xl" />
+            </div>
+          </div>
+        </div>
         <img
           src="https://i.postimg.cc/YCYzjf8L/1716107102-404977792-IMG20240515193224-800x800.jpg"
           alt=""
         />
-        <h1 className="text-3xl my-5">
+
+        <h1 className="text-xl my-5 font-semibold">
           All Over Multi Stone Work Gorgeous 4 Part Party
         </h1>
         <p>
           <span className="font-bold">SKU:</span> 173113-1
         </p>
-        <h2 className="font-semibold "> <span className="text-2xl font-bold">&#2547;</span> 29.99</h2>
+        <h2 className="font-semibold ">
+          {" "}
+          <span className="text-2xl font-bold">&#2547;</span> 29.99
+        </h2>
         <div className=" flex justify-center mt-2">
           <svg
             className="w-4 h-4 mx-px fill-current text-[#27aae1]"
@@ -55,7 +76,11 @@ const Card = () => {
             <div className="text-2xl border px-3 py-1 border-l-2 rounded-l-full font-bold">
               -
             </div>
-            <input className="border w-8 text-center" type="text" defaultValue={1} />
+            <input
+              className="border w-8 text-center"
+              type="text"
+              defaultValue={1}
+            />
             <div className="text-2xl border px-3 py-1 border-l-2 rounded-r-full font-bold">
               +
             </div>
@@ -67,18 +92,35 @@ const Card = () => {
           </div>
         </div>
       </div>
-      <div className="p-1 text-center transform duration-500 cursor-pointer">
+      <div className="relative p-1 text-center group transform duration-500 cursor-pointer">
+        <div className="absolute hidden group-hover:block top-8 right-4 rounded-md w-10 bg-white ">
+          <div className="flex flex-col items-center justify-center gap-4 ">
+            <div data-tip="Compare" className="tooltip tooltip-left">
+            <TiArrowShuffle className="text-2xl" />
+           </div>
+            <div data-tip="Search" className="tooltip tooltip-left">
+            <IoSearch className="text-2xl" />
+            </div>
+            <div data-tip="Add to Wishlist" className="tooltip tooltip-left">
+            <CiHeart className="text-2xl" />
+            </div>
+          </div>
+        </div>
         <img
           src="https://i.postimg.cc/YCYzjf8L/1716107102-404977792-IMG20240515193224-800x800.jpg"
           alt=""
         />
-        <h1 className="text-3xl my-5">
+
+        <h1 className="text-xl my-5 font-semibold">
           All Over Multi Stone Work Gorgeous 4 Part Party
         </h1>
         <p>
           <span className="font-bold">SKU:</span> 173113-1
         </p>
-        <h2 className="font-semibold "> <span className="text-2xl font-bold">&#2547;</span> 29.99</h2>
+        <h2 className="font-semibold ">
+          {" "}
+          <span className="text-2xl font-bold">&#2547;</span> 29.99
+        </h2>
         <div className=" flex justify-center mt-2">
           <svg
             className="w-4 h-4 mx-px fill-current text-[#27aae1]"
@@ -121,7 +163,11 @@ const Card = () => {
             <div className="text-2xl border px-3 py-1 border-l-2 rounded-l-full font-bold">
               -
             </div>
-            <input className="border w-8 text-center" type="text" defaultValue={1} />
+            <input
+              className="border w-8 text-center"
+              type="text"
+              defaultValue={1}
+            />
             <div className="text-2xl border px-3 py-1 border-l-2 rounded-r-full font-bold">
               +
             </div>
@@ -133,18 +179,35 @@ const Card = () => {
           </div>
         </div>
       </div>
-      <div className="p-1 text-center transform duration-500 cursor-pointer">
+      <div className="relative p-1 text-center group transform duration-500 cursor-pointer">
+        <div className="absolute hidden group-hover:block top-8 right-4 rounded-md w-10 bg-white ">
+          <div className="flex flex-col items-center justify-center gap-4 ">
+            <div data-tip="Compare" className="tooltip tooltip-left">
+            <TiArrowShuffle className="text-2xl" />
+           </div>
+            <div data-tip="Search" className="tooltip tooltip-left">
+            <IoSearch className="text-2xl" />
+            </div>
+            <div data-tip="Add to Wishlist" className="tooltip tooltip-left">
+            <CiHeart className="text-2xl" />
+            </div>
+          </div>
+        </div>
         <img
           src="https://i.postimg.cc/YCYzjf8L/1716107102-404977792-IMG20240515193224-800x800.jpg"
           alt=""
         />
-        <h1 className="text-3xl my-5">
+
+        <h1 className="text-xl my-5 font-semibold">
           All Over Multi Stone Work Gorgeous 4 Part Party
         </h1>
         <p>
           <span className="font-bold">SKU:</span> 173113-1
         </p>
-        <h2 className="font-semibold "> <span className="text-2xl font-bold">&#2547;</span> 29.99</h2>
+        <h2 className="font-semibold ">
+          {" "}
+          <span className="text-2xl font-bold">&#2547;</span> 29.99
+        </h2>
         <div className=" flex justify-center mt-2">
           <svg
             className="w-4 h-4 mx-px fill-current text-[#27aae1]"
@@ -187,7 +250,11 @@ const Card = () => {
             <div className="text-2xl border px-3 py-1 border-l-2 rounded-l-full font-bold">
               -
             </div>
-            <input className="border w-8 text-center" type="text" defaultValue={1} />
+            <input
+              className="border w-8 text-center"
+              type="text"
+              defaultValue={1}
+            />
             <div className="text-2xl border px-3 py-1 border-l-2 rounded-r-full font-bold">
               +
             </div>
@@ -199,18 +266,35 @@ const Card = () => {
           </div>
         </div>
       </div>
-      <div className="p-1 text-center transform duration-500 cursor-pointer">
+      <div className="relative p-1 text-center group transform duration-500 cursor-pointer">
+        <div className="absolute hidden group-hover:block top-8 right-4 rounded-md w-10 bg-white ">
+          <div className="flex flex-col items-center justify-center gap-4 ">
+            <div data-tip="Compare" className="tooltip tooltip-left">
+            <TiArrowShuffle className="text-2xl" />
+           </div>
+            <div data-tip="Search" className="tooltip tooltip-left">
+            <IoSearch className="text-2xl" />
+            </div>
+            <div data-tip="Add to Wishlist" className="tooltip tooltip-left">
+            <CiHeart className="text-2xl" />
+            </div>
+          </div>
+        </div>
         <img
           src="https://i.postimg.cc/YCYzjf8L/1716107102-404977792-IMG20240515193224-800x800.jpg"
           alt=""
         />
-        <h1 className="text-3xl my-5">
+
+        <h1 className="text-xl my-5 font-semibold">
           All Over Multi Stone Work Gorgeous 4 Part Party
         </h1>
         <p>
           <span className="font-bold">SKU:</span> 173113-1
         </p>
-        <h2 className="font-semibold "> <span className="text-2xl font-bold">&#2547;</span> 29.99</h2>
+        <h2 className="font-semibold ">
+          {" "}
+          <span className="text-2xl font-bold">&#2547;</span> 29.99
+        </h2>
         <div className=" flex justify-center mt-2">
           <svg
             className="w-4 h-4 mx-px fill-current text-[#27aae1]"
@@ -253,7 +337,11 @@ const Card = () => {
             <div className="text-2xl border px-3 py-1 border-l-2 rounded-l-full font-bold">
               -
             </div>
-            <input className="border w-8 text-center" type="text" defaultValue={1} />
+            <input
+              className="border w-8 text-center"
+              type="text"
+              defaultValue={1}
+            />
             <div className="text-2xl border px-3 py-1 border-l-2 rounded-r-full font-bold">
               +
             </div>

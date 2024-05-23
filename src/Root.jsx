@@ -13,7 +13,7 @@ const Root = () => {
       <div>
         <Outlet />
       </div>
-      <div className="mb-12">
+      <div >
         <Footer />
       </div>
     </div>
