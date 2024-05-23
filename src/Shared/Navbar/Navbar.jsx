@@ -6,7 +6,7 @@ import DrawerLink from "./DrawerLink/DrawerLink";
 
 const Navbar = () => {
   return (
-    <div className="bg-slate-100">
+    <div className="bg-slate-100 ">
       <div className="drawer px-4 py-2">
         <input id="my-drawer" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content flex items-center justify-between gap-6">
@@ -42,7 +42,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-        <div className="drawer-side z-[999]">
+        <div className="drawer-side z-[999] hover:drawer-overlay">
           <label
             htmlFor="my-drawer"
             aria-label="close sidebar"
