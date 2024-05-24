@@ -4,7 +4,7 @@ import SearchFn from "./SearchFn";
 
 const Navbar2 = () => {
   return (
-    <div className="max-w-screen-xl mx-auto px-3 mt-2">
+    <div className="max-w-screen-xl mx-auto px-3">
       <div className="flex md:flex-row flex-col justify-between gap-2 items-center">
         <Link to="/">
           <img

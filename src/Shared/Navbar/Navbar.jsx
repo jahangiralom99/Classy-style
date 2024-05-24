@@ -6,22 +6,24 @@ import DrawerLink from "./DrawerLink/DrawerLink";
 
 const Navbar = () => {
   return (
-    <div className="bg-slate-100 ">
+    <div className="bg-[#fbf8f2] border">
       <div className="drawer px-4 py-2">
         <input id="my-drawer" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content flex items-center justify-between gap-6">
           {/* Page content here */}
-          <div className="flex items-center">
-            <label htmlFor="my-drawer" className="btn ">
-              <CiMenuBurger className="text-3xl font-bold " />
-            </label>
-            <h1 className="text-xl pl-6 font-bold">Follow Me</h1>
+          <div className=" flex items-center gap-5">
+            <div className="flex items-center">
+              <label htmlFor="my-drawer" className="btn ">
+                <CiMenuBurger className="text-3xl font-bold" />
+              </label>
+              <h1 className="text-[24px] pl-6 font-semibold">Follow Me</h1>
+            </div>
+            <div className="hidden md:block">
+              <NavSocialIcon />
+            </div>
           </div>
-          <div className="hidden md:block">
-            <NavSocialIcon />
-          </div>
-          <div className="flex items-center gap-2 ">
-            <div className="md:flex items-center gap-2 hidden">
+          <div className="flex items-center  gap-2 ">
+            <div className="md:flex items-center  gap-2 hidden">
               <FcCallback className="text-3xl text-red-500" />
               <div>
                 <p className="font-bold">24 Support</p>
